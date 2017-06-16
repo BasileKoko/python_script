@@ -7,7 +7,10 @@ then you will be presented with and get presented with the user favourite progra
 ```
 $ git clone https://github.com/BasileKoko/python_script.git
 $ cd python_script
+$ sudo pip install dotenv
+edit .env.example and add replace 'xxxx' with your Github token
 ```
+[How to generate Github Token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)
 
 **To run the program**
 ```
