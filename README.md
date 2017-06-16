@@ -1,7 +1,7 @@
 ### FavouriteLanguage Script
 
 This is a command line script which allows to enter a Github username
-then you will be presented with and get presented with the user favourite programming language according to his/her repositories.
+then you will be presented with the user favourite programming language according to his/her repositories.
 
 **Setup**
 ```
