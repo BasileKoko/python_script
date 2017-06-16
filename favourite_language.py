@@ -42,7 +42,12 @@ class FavouriteLanguage:
         else:
             print "Sorry, no language found in {} repositories".format(username)
 
-
+    def get_favourite_language(self, username, language):
+        lang = [i for i in language if i is not None]
+        data = Counter(lang)
+        for k,v in data.iteritems():
+            if v == sorted(data.values())[-1]:
+                print k
 
 
 favouritelang = FavouriteLanguage()
