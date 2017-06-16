@@ -2,6 +2,8 @@ from dotenv import Dotenv
 import requests
 import json
 import urllib2
+from collections import Counter
+
 
 
 class FavouriteLanguage:
