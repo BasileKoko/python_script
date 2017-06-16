@@ -30,6 +30,16 @@ class FavouriteLanguage:
         else:
             print "Sorry no repositories found for {}".format(username)
 
+    def get_repositories_language(self, username, repositories):
+        language = []
+
+        for i in range(0, len(repositories)):
+            language.append(repositories[i]["language"])
+        if language != []:
+            self.get_repositories_language(username, language)
+        else:
+            print "Sorry, no language found in {} repositories".format(username)
+
 
 favouritelang = FavouriteLanguage()
 favouritelang.get_username()
