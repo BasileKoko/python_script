@@ -1,5 +1,7 @@
 from dotenv import Dotenv
 import requests
+import json
+import urllib2
 
 
 class FavouriteLanguage:
@@ -18,3 +20,16 @@ class FavouriteLanguage:
             self.get_repositories(username)
         else:
             print "Sorry username was not found"
+
+    def get_repositories(self, username):
+        url = FavouriteLanguage.end_point + username + "/repos" + FavouriteLanguage.token
+        r = requests.get(url)
+        if r.status_code == 200:
+            repositories = json.load(urllib2.urlopen(url))
+            self.get_repositories_language(username, repositories)
+        else:
+            print "Sorry no repositories found for {}".format(username)
+
+
+favouritelang = FavouriteLanguage()
+favouritelang.get_username()
