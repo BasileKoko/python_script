@@ -1,3 +1,16 @@
-This script allows to enter a Github username and get presented with the
-username favourite programming language according to his/her
-repositories.
+### FavouriteLanguage Script
+
+This is a command line script which allows to enter a Github username
+then you will be presented with and get presented with the user favourite programming language according to his/her repositories.
+
+**Setup**
+```
+$ git clone https://github.com/BasileKoko/python_script.git
+$ cd python_script
+```
+
+**To run the program**
+```
+$ python favourite_language.py
+When prompt enter a Github username
+```
