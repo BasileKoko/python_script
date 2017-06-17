@@ -44,7 +44,7 @@ class FavouriteLanguage:
 
 
     def get_favourite_language(self, language):
-        data = Counter(lang)
+        data = Counter(language)
         for k,v in data.iteritems():
             if v == sorted(data.values())[-1]:
                 print k

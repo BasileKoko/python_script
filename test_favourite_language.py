@@ -1,7 +1,12 @@
-import favourite_language
+from favourite_language import FavouriteLanguage
+import pytest
+import sys
 
-def test_stdout_message():
-    fav = FavouriteLanguage()
-    fav.get_username()
+
+def test_validate_username(capsys):
+    instance = FavouriteLanguage()
+    instance.validate_name("")
     out, err = capsys.readouterr()
-    assert out == "Please enter Github username"
+    sys.stdout.write(out)
+    sys.stderr.write(err)
+    assert out == "Sorry username was not found\n"
