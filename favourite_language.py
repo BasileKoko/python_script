@@ -5,7 +5,6 @@ import urllib2
 from collections import Counter
 
 
-
 class FavouriteLanguage:
     end_point = 'https://api.github.com/users/'
     token = "?access_token=" + Dotenv('./.env')['TOKEN']
@@ -26,6 +25,7 @@ class FavouriteLanguage:
     def get_repositories(self, username):
         url = FavouriteLanguage.end_point + username + "/repos" + FavouriteLanguage.token
         r = requests.get(url)
+
         if r.status_code == 200:
             repositories = json.load(urllib2.urlopen(url))
             self.get_repositories_language(username, repositories)
@@ -37,13 +37,13 @@ class FavouriteLanguage:
 
         for i in range(0, len(repositories)):
             language.append(repositories[i]["language"])
-        if language != []:
+        if filter(None, language) != []:
             self.get_favourite_language(language)
         else:
-            print "Sorry, no language found in {} repositories".format(username)
+            print "Sorry no language found in {} repositories".format(username)
+
 
     def get_favourite_language(self, language):
-        lang = [i for i in language if i is not None]
         data = Counter(lang)
         for k,v in data.iteritems():
             if v == sorted(data.values())[-1]:
