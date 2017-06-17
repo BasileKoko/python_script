@@ -17,3 +17,9 @@ edit the file .env.example, replace 'xxxx' with your Github token and remove .ex
 $ python favourite_language.py
 When prompt enter a Github username
 ```
+
+**To run**
+```
+$ py.test -v -s
+when prompt please press enter
+```
