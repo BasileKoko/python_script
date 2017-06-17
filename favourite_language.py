@@ -37,6 +37,7 @@ class FavouriteLanguage:
 
         for i in range(0, len(repositories)):
             language.append(repositories[i]["language"])
+            
         if filter(None, language) != []:
             self.get_favourite_language(language)
         else:
