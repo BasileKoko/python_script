@@ -10,3 +10,11 @@ def test_validate_username(capsys):
     sys.stdout.write(out)
     sys.stderr.write(err)
     assert out == "Sorry username was not found\n"
+
+def test_get_repositories(capsys):
+    instance = FavouriteLanguage()
+    instance.get_repositories("testfortest2017")
+    out, err = capsys.readouterr()
+    sys.stdout.write(out)
+    sys.stderr.write(err)
+    assert out == "Sorry no repositories found for testfortest2017\n"
