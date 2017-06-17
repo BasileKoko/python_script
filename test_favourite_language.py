@@ -26,3 +26,11 @@ def test_get_repositories_language(capsys):
     sys.stdout.write(out)
     sys.stderr.write(err)
     assert out == "Sorry no language found in userfor2017 repositories\n"
+
+def test_get_favourite_language(capsys):
+    instance = FavouriteLanguage()
+    instance.get_favourite_language(["Python", "Ruby", "Python"])
+    out, err = capsys.readouterr()
+    sys.stdout.write(out)
+    sys.stderr.write(err)
+    assert out == "Python\n"
