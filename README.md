@@ -5,12 +5,12 @@ This is a command line script which allows users to enter a GitHub username, and
 **Project Merit**  
 I believe that this script is well structured. The logic to retrieve the user favourite language is organised in a way which allows changes easily. I have separate each task with its own method and I think I have implemented a good design.
 
-**Flaws**  
+**Project Flaws**  
 I feel that the script is a bit long and I could refactor better.
 I also think some of my variables names are a bit long which seems to clutter the script.
 
 **Improvement**  
-As improvement, I would like to refactor my script a bit more, change some of the current variables names to shorter ones, and write more tests.
+As improvement, I would like to refactor my script a bit more, change some of the current variables names to shorter ones, and add more tests.
 
 **Setup**
 ```
@@ -29,6 +29,15 @@ When prompt enter a Github username
 
 **To run**
 ```
+$ sudo pip install pytest
 $ py.test -v -s
 when prompt please press enter
+```
+**Modules used**
+```python
+dotenv
+requests
+json
+urllib2
+Counter
 ```
