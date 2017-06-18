@@ -27,11 +27,13 @@ $ python favourite_language.py
 When prompt enter a Github username
 ```
 
-**To run**
+**To run tests**
 ```
 $ sudo pip install pytest
 $ py.test -v -s
 when prompt please press enter
+-v : for verbose output
+-s : to disable all capturing
 ```
 
 **Modules used**
