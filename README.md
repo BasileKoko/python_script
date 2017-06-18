@@ -6,8 +6,8 @@ This is a command line script which allows users to enter a GitHub username, and
 I believe that this script is well structured. The logic to retrieve the user favourite language is organised in a way which allows changes easily. I have separate each task with its own method and I think I have implemented a good design.
 
 **Project Flaws**  
-I feel that the script is a bit long and I could refactor better.
-I also think some of my variables names are a bit long which seems to clutter the script.
+I feel that the script is not DRY enough  and I could refactor better.
+I also think some of my variables names are a bit long which appears to clutter the script.
 
 **Improvement**  
 As improvement, I would like to refactor my script a bit more, change some of the current variables names to shorter ones, and add more tests.
