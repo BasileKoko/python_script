@@ -19,7 +19,7 @@ $ cd python_script
 $ sudo pip install dotenv
 edit the file .env.example, replace 'xxxx' with your Github token and remove .example extension
 ```
-[How to generate Github Token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)
+[How to create Github Token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)
 
 **To run the program**
 ```
