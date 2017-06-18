@@ -9,7 +9,7 @@ def output(capsys):
     sys.stderr.write(err)
     return out
 
-@pytest.fixture()
+@pytest.fixture
 def instance():
     instance = FavouriteLanguage()
     return instance
