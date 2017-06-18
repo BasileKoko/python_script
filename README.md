@@ -36,9 +36,9 @@ when prompt please press enter
 
 **Modules used**
 ```python
-dotenv
-requests
-json
-urllib2
-Counter
+module dotenv
+module requests
+module json
+module urllib2
+module Counter
 ```
