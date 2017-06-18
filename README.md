@@ -35,10 +35,10 @@ when prompt please press enter
 ```
 
 **Modules used**
-```python
-module dotenv
-module requests
-module json
-module urllib2
-module Counter
+```
+dotenv
+requests
+json
+urllib2
+Counter
 ```
