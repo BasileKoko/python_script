@@ -42,4 +42,6 @@ requests
 json
 urllib2
 Counter
+pytest
+sys
 ```
