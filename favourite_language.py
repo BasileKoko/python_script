@@ -13,7 +13,7 @@ class FavouriteLanguage:
         username = raw_input("Please enter Github username: ")
         self.validate_name(username)
 
-    def validate_name(self, username):
+    def validate_username(self, username):
         url = FavouriteLanguage.end_point + username + FavouriteLanguage.token
         r = requests.get(url)
 

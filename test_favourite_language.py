@@ -16,7 +16,7 @@ def instance():
 
 def test_validate_username(capsys, instance):
     instance
-    instance.validate_name("")
+    instance.validate_username("")
     output(capsys)
     assert output(capsys) == "Sorry username was not found\n"
 
