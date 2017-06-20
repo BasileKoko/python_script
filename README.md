@@ -3,7 +3,7 @@
 This is a command line script which allows users to enter a GitHub username, and to be presented with the GitHub user's favourite programming language.
 
 **Project Merit**  
-I believe that this script is well structured. The logic to retrieve the user favourite language is organised in a way which allows changes easily. I have separate each task with its own method and I think I have implemented a good design.
+I believe that this script is well structured. The logic to retrieve the user favourite language is following a step by step process. I separate each task with its own method and I think I have implemented a good design.
 
 **Project Flaws**  
 I feel that the script is not DRY enough  and I could refactor better.
