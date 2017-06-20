@@ -28,9 +28,9 @@ def test_get_repositories(capsys, instance):
 
 def test_get_repositories_language(capsys, instance):
     instance
-    instance.get_repositories_language("userfor2017", [])
+    instance.get_repositories_language([])
     output(capsys)
-    assert output(capsys) == "Sorry no language found in userfor2017 repositories\n"
+    assert output(capsys) == "Sorry no language found in the user repositories\n"
 
 def test_get_favourite_language(capsys, instance):
     instance
