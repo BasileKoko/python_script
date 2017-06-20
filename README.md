@@ -23,7 +23,7 @@ edit the file .env.example, replace 'xxxx' with your Github token and remove .ex
 
 **To run the program**
 ```
-$ python favourite_language.py
+$ python run_script.py
 When prompt enter a Github username
 ```
 
@@ -31,7 +31,6 @@ When prompt enter a Github username
 ```
 $ sudo pip install pytest
 $ py.test -v -s
-when prompt please press enter
 -v : for verbose output
 -s : to disable all capturing
 ```

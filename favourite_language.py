@@ -37,7 +37,7 @@ class FavouriteLanguage:
 
         for i in range(0, len(repositories)):
             language.append(repositories[i]["language"])
-            
+
         if filter(None, language) != []:
             self.get_favourite_language(language)
         else:
@@ -49,7 +49,3 @@ class FavouriteLanguage:
         for k,v in data.iteritems():
             if v == sorted(data.values())[-1]:
                 print k
-
-
-favouritelang = FavouriteLanguage()
-favouritelang.get_username()
