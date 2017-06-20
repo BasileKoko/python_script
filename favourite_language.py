@@ -9,7 +9,7 @@ class FavouriteLanguage:
     end_point = 'https://api.github.com/users/'
     token = "?access_token=" + Dotenv('./.env')['TOKEN']
 
-    def get_username(self):
+    def start(self):
         username = raw_input("Please enter Github username: ")
         self.validate_name(username)
 
