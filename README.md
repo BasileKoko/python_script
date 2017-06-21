@@ -2,8 +2,9 @@
 
 This is a command line script which allows users to enter a GitHub username, and to be presented with the GitHub user's favourite programming language.
 
-**Project files**
+**Project files**  
 The project has 3 main files.
+
 - favourite_language.py  
 This is the main script file.
 
