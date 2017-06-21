@@ -4,13 +4,13 @@ This is a command line script which allows users to enter a GitHub username, and
 
 **Project files**
 - favourite_language.py  
-This is the main script
+This is the main script file.
 
 - run_script.py  
-This the file needed to run the script
+This is the file needed to run the script
 
 - test_get_favourite_language.py  
-This is the script test file.
+This is the test file for the script.
 
 
 **Project Merit**  
