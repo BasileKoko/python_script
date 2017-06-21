@@ -49,12 +49,12 @@ $ py.test -v -s
 ```
 **Screenshots**
 
-![](https://github.com/BasileKoko/python_script/blob/master/run_script_example.png)
-run_script_example
+![](https://github.com/BasileKoko/python_script/blob/master/run_script_example.png)  
+**run_script_example**
 
 
 ![](https://github.com/BasileKoko/python_script/blob/master/run_test_example.png)
-run_test_example
+**run_test_example**
 
 **Modules used**
 ```
