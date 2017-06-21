@@ -11,7 +11,7 @@ This is the main script file.
 - run_script.py  
 This is the file needed to run the script
 
-- test_get_favourite_language.py  
+- test_favourite_language.py  
 This is the test file for the script.
 
 
