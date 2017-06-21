@@ -1,16 +1,22 @@
-### FavouriteLanguage Script
+### FavouriteLanguage
 
 This is a command line script which allows users to enter a GitHub username, and to be presented with the GitHub user's favourite programming language.
+
+**Project files**
+1. favourite_language.py: This is the main script
+2. run_script.py: This the file needed to run the script
+3. test_get_favourite_language.py: This is the script test file.
+
 
 **Project Merit**  
 I believe that this script is well structured. The logic to retrieve the user favourite language is following a step by step process. I separate each task with its own method and I think I have implemented a good design.
 
 **Project Flaws**  
 I feel that the script is not DRY enough  and I could refactor better.
-I also think some of my variables names are a bit long which appears to clutter the script.
+I also think some of my method names are a bit long and this appears to clutter the script.
 
 **Improvement**  
-As improvement, I would like to refactor my script a bit more, change some of the current variables names to shorter ones, and add more tests.
+As improvement, I would like to refactor my script a bit more, change some of the current method names and add more tests.
 
 **Setup**
 ```
