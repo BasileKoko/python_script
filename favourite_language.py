@@ -11,7 +11,7 @@ class FavouriteLanguage:
 
     def start(self):
         username = raw_input("Please enter Github username: ")
-        self.validate_name(username)
+        self.validate_username(username)
 
     def validate_username(self, username):
         url = FavouriteLanguage.end_point + username + FavouriteLanguage.token
@@ -28,7 +28,7 @@ class FavouriteLanguage:
 
         if r.status_code == 200:
             repositories = json.load(urllib2.urlopen(url))
-            self.get_repositories_language(username, repositories)
+            self.get_repositories_language(repositories)
         else:
             print "Sorry no repositories found for {}".format(username)
 
