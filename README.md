@@ -47,6 +47,14 @@ $ py.test -v -s
 -v : for verbose output
 -s : to disable all capturing
 ```
+**Screenshots**
+
+![](https://github.com/BasileKoko/python_script/blob/master/run_script_example.png)
+run_script_example
+
+
+![](https://github.com/BasileKoko/python_script/blob/master/run_test_example.png)
+run_test_example
 
 **Modules used**
 ```
