@@ -1,7 +1,6 @@
 from dotenv import Dotenv
 import requests
 import json
-import urllib2
 from collections import Counter
 
 
@@ -27,7 +26,7 @@ class FavouriteLanguage:
         r = requests.get(url)
 
         if r.status_code == 200:
-            repositories = json.load(urllib2.urlopen(url))
+            repositories = r.json()
             self.get_repositories_language(repositories)
         else:
             print "Sorry no repositories found for {}".format(username)
