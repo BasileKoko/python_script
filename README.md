@@ -51,7 +51,6 @@ $ py.test -v -s
 dotenv
 requests
 json
-urllib2
 Counter
 pytest
 sys
