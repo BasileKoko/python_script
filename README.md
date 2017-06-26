@@ -15,16 +15,6 @@ This is the file needed to run the script
 This is the test file for the script.
 
 
-**Project Merit**  
-I believe that this script is well structured. The logic to retrieve the user favourite language is following a step by step process. I separate each task with its own method and I think I have implemented a good design.
-
-**Project Flaws**  
-I feel that the script is not DRY enough  and I could refactor better.
-I also think some of my method names are a bit long and this appears to clutter the script.
-
-**Improvement**  
-As improvement, I would like to refactor my script a bit more, change some of the current method names and add more tests.
-
 **Setup**
 ```
 $ git clone https://github.com/BasileKoko/python_script.git
